@@ -1,0 +1,15 @@
+body{
+    background-image: url("../images/grey.png");
+}
+div.card.center{
+    background-color: rgba(46, 49, 49, 0.7);
+}
+a{
+    color:white;
+}
+.btn{
+    margin-bottom: 8px;
+}
+.self{
+    margin-left: 40px;
+}
