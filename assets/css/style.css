@@ -18,3 +18,25 @@ a{
 .self{
     margin-left: 40px;
 }
+@media screen and (max-width: 980px) {
+    .project{
+        max-height: 115px;
+        margin: 15px 5px 15px 5px;
+    }
+}
+@media screen and (max-width: 768px ) {
+    .project{
+        max-height: 115px;
+        margin: 15px 5px 15px 5px;
+    }
+}
+
+@media screen and (max-width: 640px ) {
+    .project{
+        max-height: 170px;
+        margin: 15px 70px 15px 70px;
+    }
+    .btn{
+        margin: 15px 85px 15px 85px;
+    }
+}
