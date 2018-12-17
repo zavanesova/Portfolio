@@ -4,16 +4,39 @@ body{
 #name{
     color:white;
     font-size: 50px;
+    line-height: 100px;
+    font-family: 'Noto Sans', sans-serif;
+    text-shadow: 2px 2px 2px rgb(56, 53, 53);
 }
 div.card.center{
     background-color: rgba(46, 49, 49, 0.7);
 }
+#title{
+    font-size: 30px;
+    line-height: 65px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-shadow: 2px 2px 2px rgb(56, 53, 53);
+    color:white;
+}
 a{
     color:white;
+}
+p,
+#contact,
+#contact2{
+    font-family: 'Roboto Condensed', sans-serif;
+    color:white;
+    font-size: 22px;
+}
+.link:hover{
+    color: lightblue;
 }
 .btn{
     margin-top: 7px;
     background-color: rgb(56, 53, 53, .85);
+}
+.btn:hover{
+    background-color: rgb(75, 75, 75, .85);
 }
 .self{
     margin-left: 40px;
@@ -23,12 +46,22 @@ a{
         max-height: 115px;
         margin: 15px 5px 15px 5px;
     }
+    p,
+    #contact,
+    #contact2{
+    font-size: 18px;
+}
 }
 @media screen and (max-width: 768px ) {
     .project{
         max-height: 115px;
         margin: 15px 5px 15px 5px;
     }
+    p,
+    #contact,
+    #contact2{
+    font-size: 18px;
+}
 }
 
 @media screen and (max-width: 640px ) {
@@ -37,6 +70,12 @@ a{
         margin: 15px 70px 15px 70px;
     }
     .btn{
-        margin: 15px 85px 15px 85px;
+        margin: 15px 70px 15px 70px;
     }
+    p,
+    #contact,
+    #contact2{
+    font-size: 18px;
 }
+}
+
