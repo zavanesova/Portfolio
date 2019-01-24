@@ -23,7 +23,8 @@ a{
 }
 p,
 #contact,
-#contact2{
+#contact2,
+.node{
     font-family: 'Roboto Condensed', sans-serif;
     color:white;
     font-size: 22px;
